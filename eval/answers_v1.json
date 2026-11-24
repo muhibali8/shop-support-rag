@@ -1,0 +1,466 @@
+[
+  {
+    "id": 1,
+    "lang": "roman_urdu",
+    "question": "Delivery charges kitne hain?",
+    "expected": "Delivery charges PKR 250 flat rate hain sab cities ke liye. PKR 5,000 ya us se zyada ke order par delivery free hai.",
+    "answer": "Delivery charges PKR 250 flat rate hain tamam cities ke liye. Agar aap ka order PKR 5,000 ya us se zyada ka hai, to delivery free hai.",
+    "sources": [
+      "Delivery > Delivery Charges",
+      "Payment Methods > Payment Options",
+      "Delivery > Delivery Time",
+      "Custom Stitching Service > Stitching Charges, Time and Measurements",
+      "Frequently Asked Questions > What if my parcel is delayed?"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 2,
+    "lang": "english",
+    "question": "How many days does delivery take to Lahore?",
+    "expected": "Major cities including Lahore take 3 to 5 working days.",
+    "answer": "Delivery to Lahore takes 3 to 5 working days. Orders are dispatched within 24 to 48 hours after confirmation.",
+    "sources": [
+      "Delivery > Delivery Time",
+      "Delivery > Delivery Coverage and Courier",
+      "Delivery > Delivery Charges",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Return and Exchange Policy > Return Window and Conditions"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 3,
+    "lang": "roman_urdu",
+    "question": "Chhote shehron mein delivery kitne din mein hoti hai?",
+    "expected": "Other cities and remote areas mein 5 se 7 working days lagte hain.",
+    "answer": "Chhote shehron aur remote areas mein delivery 5 se 7 working days mein hoti hai.",
+    "sources": [
+      "Frequently Asked Questions > What if the courier does not deliver to me?",
+      "Delivery > Delivery Time",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Delivery > Delivery Charges",
+      "Delivery > Delivery Coverage and Courier"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 4,
+    "lang": "roman_urdu",
+    "question": "COD available hai? Us ka extra charge kya hai?",
+    "expected": "Haan, COD poore Pakistan mein available hai, extra COD fee PKR 100 hai.",
+    "answer": "Ji haan, Cash on Delivery (COD) poore Pakistan mein available hai aur iska extra charge PKR 100 hai.",
+    "sources": [
+      "Payment Methods > Payment Options",
+      "Payment Methods > Order Confirmation",
+      "Discounts and Sales",
+      "Delivery > Delivery Charges",
+      "Return and Exchange Policy > Refunds"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 5,
+    "lang": "english",
+    "question": "Do you accept credit cards?",
+    "expected": "No, credit and debit cards are not accepted at this time. Payment options are COD, bank transfer (Meezan Bank), JazzCash and Easypaisa.",
+    "answer": "No, we do not accept credit or debit cards at this time.",
+    "sources": [
+      "Payment Methods > Payment Options",
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Payment Methods > Advance Payment Discount",
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Payment Methods > Order Confirmation"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 6,
+    "lang": "roman_urdu",
+    "question": "Advance payment par koi discount milta hai?",
+    "expected": "Haan, advance payment (bank transfer, JazzCash ya Easypaisa) par product price par 5% discount milta hai.",
+    "answer": "Haan, advance payment (bank transfer, JazzCash, ya Easypaisa) par aapko product price par 5% discount milta hai.",
+    "sources": [
+      "Payment Methods > Advance Payment Discount",
+      "Discounts and Sales",
+      "Payment Methods > Payment Options",
+      "Payment Methods > Order Confirmation",
+      "Order Changes and Cancellation"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 7,
+    "lang": "roman_urdu",
+    "question": "Return kitne din mein ho sakta hai?",
+    "expected": "Delivery ke 7 din ke andar return ya exchange ho sakta hai, item unused, unwashed aur original tags ke saath hona chahiye.",
+    "answer": "Returns aur exchanges delivery ke 7 din ke andar accept kiye jaate hain. Item unused, unwashed aur original tags ke sath hona chahiye.",
+    "sources": [
+      "Return and Exchange Policy > Items That Cannot Be Returned",
+      "Return and Exchange Policy > Return Window and Conditions",
+      "Frequently Asked Questions > What if the courier does not deliver to me?",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Return and Exchange Policy > Refunds"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 8,
+    "lang": "english",
+    "question": "Can I return a dupatta?",
+    "expected": "No, dupattas and scarves are not returnable.",
+    "answer": "No, dupattas cannot be returned. According to our policy, dupattas and scarves are not eligible for return or exchange.",
+    "sources": [
+      "Return and Exchange Policy > Items That Cannot Be Returned",
+      "Products and Prices > Chiffon Dupatta",
+      "Return and Exchange Policy > Return Window and Conditions",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Return and Exchange Policy > Refunds"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 9,
+    "lang": "roman_urdu",
+    "question": "Size chhota aa gaya to exchange free hai?",
+    "expected": "Pehla size exchange free hai. Us ke baad ke exchange ka courier charge customer ko dena hoga.",
+    "answer": "Ji haan, pehli baar size exchange bilkul free hai. Us ke baad agar mazeed exchange karwana ho toh courier charges customer ko pay karne honge.",
+    "sources": [
+      "Return and Exchange Policy > Exchange and Return Courier Charges",
+      "Size Guide (Stitched Items)",
+      "Products and Prices > Classic Abaya",
+      "Products and Prices > Pashmina Shawl",
+      "Contact and Working Hours"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 10,
+    "lang": "roman_urdu",
+    "question": "Galat item aa gaya to courier charges kaun dega?",
+    "expected": "Agar item defective ho ya galat item deliver hua ho to saare charges hum (Zara's Boutique) dete hain.",
+    "answer": "Agar galat item deliver ho gaya hai to tamam courier charges hum (Zara's Boutique) ada karenge.",
+    "sources": [
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Return and Exchange Policy > Exchange and Return Courier Charges",
+      "Delivery > Delivery Charges",
+      "Payment Methods > Payment Options",
+      "Frequently Asked Questions > What if the courier does not deliver to me?"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 11,
+    "lang": "english",
+    "question": "How long does a refund take?",
+    "expected": "Refunds are processed within 5 to 7 working days after we receive and check the returned item.",
+    "answer": "Refunds for returned items are processed within 5 to 7 working days after we receive and check the returned item. \n\nIf it is an advance payment for a cancelled order, the refund is processed within 3 working days.",
+    "sources": [
+      "Return and Exchange Policy > Refunds",
+      "Return and Exchange Policy > Return Window and Conditions",
+      "Order Changes and Cancellation",
+      "Delivery > Delivery Time",
+      "Frequently Asked Questions > What if the courier does not deliver to me?"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 12,
+    "lang": "roman_urdu",
+    "question": "Refund mein COD fee wapis milti hai?",
+    "expected": "Nahi, COD delivery charges aur COD fee refund nahi hote.",
+    "answer": "Nahi, refund mein COD delivery charges aur COD fee wapis nahi milti.",
+    "sources": [
+      "Payment Methods > Payment Options",
+      "Return and Exchange Policy > Refunds",
+      "Payment Methods > Order Confirmation",
+      "Discounts and Sales",
+      "Return and Exchange Policy > Return Window and Conditions"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 13,
+    "lang": "roman_urdu",
+    "question": "Summer Bloom Lawn ka price kya hai?",
+    "expected": "Summer Bloom Lawn 3-Piece (unstitched) ka price PKR 4,500 hai.",
+    "answer": "Summer Bloom Lawn 3-Piece (Unstitched) ki price PKR 4,500 hai.",
+    "sources": [
+      "Products and Prices > Summer Bloom Lawn 3-Piece (Unstitched)",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Products and Prices > Formal Maxi Dress",
+      "Products and Prices > Pashmina Shawl",
+      "Products and Prices > Printed Scarf"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 14,
+    "lang": "english",
+    "question": "What colors does the Formal Maxi Dress come in?",
+    "expected": "The Formal Maxi Dress comes in emerald green and burgundy.",
+    "answer": "The Formal Maxi Dress is available in emerald green and burgundy.",
+    "sources": [
+      "Products and Prices > Formal Maxi Dress",
+      "Products and Prices > Casual Palazzo Set (2-Piece)",
+      "Products and Prices > Classic Abaya",
+      "Products and Prices > Pashmina Shawl",
+      "Products and Prices > Summer Bloom Lawn 3-Piece (Unstitched)"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 15,
+    "lang": "roman_urdu",
+    "question": "Embroidered Kurti ka length kitna hai?",
+    "expected": "Embroidered Kurti ki length 40 inches hai.",
+    "answer": "Embroidered Kurti ki length 40 inches hai.",
+    "sources": [
+      "Products and Prices > Embroidered Kurti",
+      "Products and Prices > Cotton Kurti Basic",
+      "Custom Stitching Service > Stitching Charges, Time and Measurements",
+      "Products and Prices > Formal Maxi Dress",
+      "Custom Stitching Service > Stitching Availability and Policy"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 16,
+    "lang": "roman_urdu",
+    "question": "Pashmina shawl garmiyon mein milti hai?",
+    "expected": "Nahi, Pashmina Shawl sirf October se February tak available hai.",
+    "answer": "Nahi, Pashmina shawl sirf October se February tak hi available hoti hai.",
+    "sources": [
+      "Products and Prices > Pashmina Shawl",
+      "Products and Prices > Casual Palazzo Set (2-Piece)",
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Products and Prices > Formal Maxi Dress",
+      "About the shop"
+    ],
+    "answerable": true
+  },
+  {
+    "id": 17,
+    "lang": "roman_urdu",
+    "question": "Abaya ke kaunse sizes hain?",
+    "expected": "Classic Abaya ke sizes 52, 54 aur 56 (length in inches) hain.",
+    "answer": "Classic Abaya ke sizes 52, 54, aur 56 hain (length inches mein).",
+    "sources": [
+      "Products and Prices > Classic Abaya",
+      "Size Guide (Stitched Items)",
+      "Products and Prices > Cotton Trouser",
+      "Products and Prices > Casual Palazzo Set (2-Piece)",
+      "Products and Prices > Pashmina Shawl"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 18,
+    "lang": "english",
+    "question": "I am 37 inch bust. Which size should I order?",
+    "expected": "Size M is 36 inch bust and L is 38 inch. If between two sizes, the larger size (L) is recommended.",
+    "answer": "Since a 37-inch bust is between size M (36 inches) and size L (38 inches), we recommend choosing size **L (Large)**. \n\nYou can also send your measurements on WhatsApp, and our team will suggest the best size for you.",
+    "sources": [
+      "Size Guide (Stitched Items)",
+      "Frequently Asked Questions > Can I place a bulk order for a wedding or event?",
+      "Products and Prices > Summer Bloom Lawn 3-Piece (Unstitched)",
+      "Products and Prices > Classic Abaya",
+      "Delivery > Delivery Time"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 19,
+    "lang": "roman_urdu",
+    "question": "Stitching ka charge kitna hai aur kitna time lagta hai?",
+    "expected": "Stitching PKR 1,000 per suit hai aur dispatch se pehle 7 se 10 working days extra lagte hain.",
+    "answer": "Stitching charges PKR 1,000 per suit hain, aur is mein dispatch se pehle extra 7 se 10 working days lagte hain.",
+    "sources": [
+      "Custom Stitching Service > Stitching Charges, Time and Measurements",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Products and Prices > Embroidered Kurti",
+      "Frequently Asked Questions > Are your products original?",
+      "Return and Exchange Policy > Items That Cannot Be Returned"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 20,
+    "lang": "roman_urdu",
+    "question": "Stitching sirf kin suits par hoti hai?",
+    "expected": "Sirf Summer Bloom Lawn 3-Piece aur Winter Khaddar 2-Piece par.",
+    "answer": "Stitching sirf Summer Bloom Lawn 3-Piece aur Winter Khaddar 2-Piece par hoti hai.",
+    "sources": [
+      "Custom Stitching Service > Stitching Charges, Time and Measurements",
+      "Products and Prices > Embroidered Kurti",
+      "Products and Prices > Formal Maxi Dress",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Frequently Asked Questions > Are your products original?"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 21,
+    "lang": "english",
+    "question": "Can I cancel my order after it has been dispatched?",
+    "expected": "No, orders can only be cancelled or changed before dispatch. After delivery, the return policy can be used.",
+    "answer": "No, once an order is dispatched, it cannot be cancelled. However, you can use the return policy after delivery.",
+    "sources": [
+      "Order Changes and Cancellation",
+      "Frequently Asked Questions > Can I change my delivery address after ordering?",
+      "Payment Methods > Order Confirmation",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Delivery > Delivery Time"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 22,
+    "lang": "roman_urdu",
+    "question": "Aap ki Sunday ko service available hai?",
+    "expected": "Sunday ko band hota hai. Sunday ke messages ka jawab Monday ko diya jata hai.",
+    "answer": "Nahi, Sunday ko hamari service closed hoti hai. Sunday ko bheje gaye messages ka jawab Monday ko diya jata hai. \n\nHamare working hours Monday se Saturday, 10:00 AM se 8:00 PM hain.",
+    "sources": [
+      "Contact and Working Hours",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Delivery > Delivery Time"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 23,
+    "lang": "roman_urdu",
+    "question": "Kya aap ka physical showroom hai?",
+    "expected": "Nahi, hum sirf online hain. Abhi koi showroom nahi hai.",
+    "answer": "Nahi, hamara koi physical showroom ya shop nahi hai. Hum sirf online business karte hain.",
+    "sources": [
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Contact and Working Hours",
+      "Frequently Asked Questions > Is the color the same as in the pictures?",
+      "Frequently Asked Questions > Are your products original?",
+      "About the shop"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 24,
+    "lang": "roman_urdu",
+    "question": "Wedding ke liye 6 suits bulk mein chahiye, koi special rate?",
+    "expected": "Haan, 5 ya us se zyada pieces ke liye WhatsApp par message karein, special rates aur delivery timeline mil jayegi.",
+    "answer": "Jee haan, 5 ya us se zyada pieces ke bulk order par special rates aur delivery timelines ke liye humein WhatsApp par message karein.",
+    "sources": [
+      "Frequently Asked Questions > Can I place a bulk order for a wedding or event?",
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Products and Prices > Formal Maxi Dress",
+      "Products and Prices > Bridal Clutch",
+      "Custom Stitching Service > Stitching Charges, Time and Measurements"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 25,
+    "lang": "english",
+    "question": "Do you offer gift wrapping?",
+    "expected": "Yes, gift wrapping is available for PKR 300.",
+    "answer": "Yes, gift wrapping is available for PKR 300.",
+    "sources": [
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Frequently Asked Questions > Can I place a bulk order for a wedding or event?",
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Frequently Asked Questions > Are your products original?"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 26,
+    "lang": "roman_urdu",
+    "question": "Mera parcel late ho gaya, kya karun?",
+    "expected": "Apna order number WhatsApp par share karein, hum courier se rabta karenge.",
+    "answer": "Baraaye meharbani apna order number WhatsApp par share karein, hum courier se rabta karein ge. Eid, baarish ya hartal ki wajah se parcel late ho sakta hai.",
+    "sources": [
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Delivery > Delivery Time",
+      "Frequently Asked Questions > What if the courier does not deliver to me?",
+      "Frequently Asked Questions > Can I place a bulk order for a wedding or event?",
+      "Frequently Asked Questions > Do you offer gift wrapping?"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 27,
+    "lang": "english",
+    "question": "Do you deliver to Dubai?",
+    "expected": "No, we do not currently deliver outside Pakistan.",
+    "answer": "We do not currently deliver outside Pakistan. We only deliver all over Pakistan.",
+    "sources": [
+      "Delivery > Delivery Coverage and Courier",
+      "Delivery > Delivery Charges",
+      "Delivery > Delivery Time",
+      "Frequently Asked Questions > Can I change my delivery address after ordering?",
+      "Frequently Asked Questions > What if the courier does not deliver to me?"
+    ],
+    "answerable": true,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 28,
+    "lang": "roman_urdu",
+    "question": "Kya aap men's kurta bhi bechte hain?",
+    "expected": "Documents mein men's kurta ka zikr nahi hai. Bot ko kehna chahiye ke is ki information nahi hai aur WhatsApp par rabta karne ko kahe.",
+    "answer": "Mujhe is ki maloomat nahi hai. Baraye meherbani aap seller se WhatsApp par rabta karein.",
+    "sources": [
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Products and Prices > Embroidered Kurti",
+      "Products and Prices > Cotton Kurti Basic",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Delivery > Delivery Time"
+    ],
+    "answerable": false,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 29,
+    "lang": "english",
+    "question": "What is your owner's home address?",
+    "expected": "No information available in the documents. The bot should politely decline and refer to WhatsApp or Instagram contact.",
+    "answer": "I am sorry, I do not have this information. Please contact the seller on WhatsApp for further assistance.",
+    "sources": [
+      "Frequently Asked Questions > Can I change my delivery address after ordering?",
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Frequently Asked Questions > What if the courier does not deliver to me?",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Return and Exchange Policy > Return Window and Conditions"
+    ],
+    "answerable": false,
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 30,
+    "lang": "roman_urdu",
+    "question": "Kya Eid ki sale mein abaya 50% off hogi?",
+    "expected": "Documents mein specific sale percentage ka zikr nahi. Sirf yeh likha hai ke Eid, 14 August aur Black Friday par seasonal sales hoti hain. Bot ko 50% ki tasdeeq nahi karni chahiye.",
+    "answer": "Mujhe is ki maloomat nahi hai. Baraye meherbani mazeed tafseelat ke liye seller se WhatsApp par rabta karein.",
+    "sources": [
+      "Discounts and Sales",
+      "Products and Prices > Classic Abaya",
+      "Products and Prices > Embroidered Kurti",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Frequently Asked Questions > Do you offer gift wrapping?"
+    ],
+    "answerable": false,
+    "model": "gemini-3.5-flash"
+  }
+]

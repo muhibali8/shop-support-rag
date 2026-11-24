@@ -1,0 +1,122 @@
+[
+  {
+    "id": 2,
+    "question": "How many days does delivery take to Lahore?",
+    "expected": "Major cities including Lahore take 3 to 5 working days.",
+    "v1": "Delivery to Lahore takes 3 to 5 working days. Orders are dispatched within 24 to 48 hours after confirmation.",
+    "v2": "Delivery to Lahore takes 3 to 5 working days.",
+    "sources": [
+      "Delivery > Delivery Time",
+      "Delivery > Delivery Coverage and Courier",
+      "Delivery > Delivery Charges",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Return and Exchange Policy > Return Window and Conditions"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 5,
+    "question": "Do you accept credit cards?",
+    "expected": "No, credit and debit cards are not accepted at this time. Payment options are COD, bank transfer (Meezan Bank), JazzCash and Easypaisa.",
+    "v1": "No, we do not accept credit or debit cards at this time.",
+    "v2": "We do not accept credit or debit cards at this time. You can use our available payment options: Cash on Delivery (COD), Bank transfer (Meezan Bank), JazzCash, or Easypaisa.",
+    "sources": [
+      "Payment Methods > Payment Options",
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Payment Methods > Advance Payment Discount",
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Payment Methods > Order Confirmation"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 11,
+    "question": "How long does a refund take?",
+    "expected": "Refunds are processed within 5 to 7 working days after we receive and check the returned item.",
+    "v1": "Refunds for returned items are processed within 5 to 7 working days after we receive and check the returned item. \n\nIf it is an advance payment for a cancelled order, the refund is processed within 3 working days.",
+    "v2": "Refunds for returned items are processed within 5 to 7 working days after we receive and check the returned item. Advance payments for cancelled orders are refunded within 3 working days.",
+    "sources": [
+      "Return and Exchange Policy > Refunds",
+      "Return and Exchange Policy > Return Window and Conditions",
+      "Order Changes and Cancellation",
+      "Delivery > Delivery Time",
+      "Frequently Asked Questions > What if the courier does not deliver to me?"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 30,
+    "question": "Kya Eid ki sale mein abaya 50% off hogi?",
+    "expected": "Documents mein specific sale percentage ka zikr nahi. Sirf yeh likha hai ke Eid, 14 August aur Black Friday par seasonal sales hoti hain. Bot ko 50% ki tasdeeq nahi karni chahiye.",
+    "v1": "Mujhe is ki maloomat nahi hai. Baraye meherbani mazeed tafseelat ke liye seller se WhatsApp par rabta karein.",
+    "v2": "Eid par seasonal sale hoti hai, lekin abaya par 50% discount hoga ya nahi iski maloomat nahi hai. Aap mazeed maloomat ke liye seller se WhatsApp par rabta karein.",
+    "sources": [
+      "Discounts and Sales",
+      "Products and Prices > Classic Abaya",
+      "Products and Prices > Embroidered Kurti",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Frequently Asked Questions > Do you offer gift wrapping?"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 1,
+    "question": "Delivery charges kitne hain?",
+    "expected": "Delivery charges PKR 250 flat rate hain sab cities ke liye. PKR 5,000 ya us se zyada ke order par delivery free hai.",
+    "v1": "Delivery charges PKR 250 flat rate hain tamam cities ke liye. Agar aap ka order PKR 5,000 ya us se zyada ka hai, to delivery free hai.",
+    "v2": "Delivery charges PKR 250 flat rate hain tamam cities ke liye. PKR 5,000 ya us se zyada ke orders par delivery free hai.",
+    "sources": [
+      "Delivery > Delivery Charges",
+      "Payment Methods > Payment Options",
+      "Delivery > Delivery Time",
+      "Custom Stitching Service > Stitching Charges, Time and Measurements",
+      "Frequently Asked Questions > What if my parcel is delayed?"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 8,
+    "question": "Can I return a dupatta?",
+    "expected": "No, dupattas and scarves are not returnable.",
+    "v1": "No, dupattas cannot be returned. According to our policy, dupattas and scarves are not eligible for return or exchange.",
+    "v2": "No, dupattas cannot be returned.",
+    "sources": [
+      "Return and Exchange Policy > Items That Cannot Be Returned",
+      "Products and Prices > Chiffon Dupatta",
+      "Return and Exchange Policy > Return Window and Conditions",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Return and Exchange Policy > Refunds"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 28,
+    "question": "Kya aap men's kurta bhi bechte hain?",
+    "expected": "Documents mein men's kurta ka zikr nahi hai. Bot ko kehna chahiye ke is ki information nahi hai aur WhatsApp par rabta karne ko kahe.",
+    "v1": "Mujhe is ki maloomat nahi hai. Baraye meherbani aap seller se WhatsApp par rabta karein.",
+    "v2": "Is baare mein maloomat nahi hai. Aap seller se WhatsApp par rabta karein.",
+    "sources": [
+      "Frequently Asked Questions > Do you offer gift wrapping?",
+      "Products and Prices > Embroidered Kurti",
+      "Products and Prices > Cotton Kurti Basic",
+      "Frequently Asked Questions > What if my parcel is delayed?",
+      "Delivery > Delivery Time"
+    ],
+    "model": "gemini-3.5-flash"
+  },
+  {
+    "id": 29,
+    "question": "What is your owner's home address?",
+    "expected": "No information available in the documents. The bot should politely decline and refer to WhatsApp or Instagram contact.",
+    "v1": "I am sorry, I do not have this information. Please contact the seller on WhatsApp for further assistance.",
+    "v2": "This information is not available. Please contact the seller on WhatsApp for further details.",
+    "sources": [
+      "Frequently Asked Questions > Can I change my delivery address after ordering?",
+      "Frequently Asked Questions > Do you have a physical shop?",
+      "Frequently Asked Questions > What if the courier does not deliver to me?",
+      "Custom Stitching Service > Stitching Availability and Policy",
+      "Return and Exchange Policy > Return Window and Conditions"
+    ],
+    "model": "gemini-3.5-flash"
+  }
+]

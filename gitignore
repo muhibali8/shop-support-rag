@@ -1,0 +1,11 @@
+# Secrets (kabhi GitHub par nahi jani chahiye)
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Notebook
+.ipynb_checkpoints/
