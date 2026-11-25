@@ -3,6 +3,17 @@ import sys
 import streamlit as st
 
 sys.path.insert(0, "src")
+
+try:
+    os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+except Exception:
+    pass
+
+if not os.path.exists("chroma_db"):
+    with st.spinner("Pehli baar setup ho raha hai, 1-2 minute lagenge..."):
+        import ingest
+        ingest.main()
+        
 from answer import answer
 
 st.title("Zara's Boutique Support")
