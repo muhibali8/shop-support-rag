@@ -4,7 +4,7 @@ A customer-support chatbot for small online sellers. Customers ask questions in 
 
 Built and tested first on a fictional shop ("Zara's Boutique"). To use it for another seller, only the data file changes.
 
-**Live demo:** LIVE_LINK_YAHAN
+**Live demo:** https://shop-support-rag.streamlit.app/
 
 ## How it works
 
