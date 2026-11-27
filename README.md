@@ -15,7 +15,7 @@ data/zaras_boutique.md
    embeddings  (intfloat/multilingual-e5-base)
         v
    ChromaDB  (vector search)
-        |  customer question -> top 5 chunks
+        |  customer question -> top 8 chunks
         v
    prompt + chunks  ->  Gemini  ->  answer + sources
 ```
@@ -68,6 +68,8 @@ Evaluated on 30 hand-written questions (Roman Urdu and English), including 3 que
 When the answer was found, the right chunk was always ranked first. Both wrong declines were retrieval misses: the correct chunk was not in the top 5. In both cases the question was in Roman Urdu and the data in English ("address badal sakta hoon" vs "change my delivery address", "sardi" vs "winter"). The bot did not invent anything in those cases, it declined, which is safe but not helpful.
 
 On the tuned set retrieval reached Hit@5 of 27 / 27, on the held-out set it was 10 / 12. That gap is what tuning on the test questions looks like.
+
+**First fix:** raising the number of retrieved chunks from `k=5` to `k=8` fixed question 37 (the right chunk was ranked 6th). Question 46 still fails: its right chunks ranked 20th and 24th, because the Roman Urdu word "sardi" does not match the English word "winter". This is a retrieval limitation (a Roman Urdu to English vocabulary gap), not a prompt problem. Since both questions were looked at while fixing, they now count as regression tests, not held-out ones.
 
 **Honest caveats**
 - The retrieval settings (chunk splits, embedding model, `k`) were tuned while looking at the first 27 questions, so those retrieval numbers are optimistic. The held-out test above is the more honest number.
