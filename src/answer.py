@@ -58,7 +58,7 @@ CUSTOMER KA SAWAL: {question}
 JAWAB:"""
 
 
-def answer(question, k=5):
+def answer(question, k=8):
     retrieved = retrieve(question, k)
     prompt = build_prompt(question, retrieved)
     reply = ask_llm(prompt)
